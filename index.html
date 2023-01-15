@@ -16,22 +16,23 @@
             <div class="container">
         <div class="card">
             <div class="card-content">
-                <div class="content ">
+                <form method="POST" action="proses.php" class="content ">
+                    
                     <div class="has-text-weight-bold mt-3">Nama</div>
-                    <input class="input" type="text" placeholder="Name" />
+                    <input class="input" type="text" name="name" placeholder="Name" />
                     
 
                     <div class="has-text-weight-bold mt-3">Password</div>
-                    <input class="input" type="password" placeholder="Password" />
+                    <input class="input" type="password" name="password" placeholder="Password" />
 
 
                     <div class="has-text-weight-bold mt-4">Alamat</div>
-                    <input class="input" type="pasword" placeholder="Alamat" />
+                    <input class="input" type="pasword" name="alamat" placeholder="Alamat" />
 
-                    <button class="button is-link is-full mt-6 is-fullwidth">Register</button>
+                    <button type="submit" class="button is-link is-full mt-6 is-fullwidth">Register</button>
                     
                 </div>
-            </div>
+                    </form>
             </div>
            </div>
 
